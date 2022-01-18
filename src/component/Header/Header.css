@@ -15,12 +15,12 @@
   font-size: 18px;
   font-weight: 600;
 }
-.header .nav-item:not(:last-child) {
+/* .header .nav-item:not(:last-child) {
   margin-right: 30px;
   color: #000 !important;
   font-size: 18px;
   font-weight: 600;
-}
+} */
 .navbar-light .navbar-nav .nav-link {
   color: #000 !important;
 }
