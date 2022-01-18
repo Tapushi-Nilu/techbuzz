@@ -1,0 +1,61 @@
+.portfolio {
+  background-image: url(../img/case-study-pattern.png);
+  background-position: center bottom;
+  background-size: contain;
+  padding: 80px 0px;
+  background-repeat: no-repeat;
+}
+.c-port {
+  border: 0;
+}
+.cp-body {
+  background: #ffffff;
+  padding: 25px;
+  width: calc(100% - 50px);
+  box-shadow: 0px 8px 16px 0px rgb(102 102 102 / 4%);
+  margin: 0 auto;
+  margin-top: -45px;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.cp-body::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #086ad8;
+  height: 50px;
+  width: 2px;
+  content: "";
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.cp-body:hover::before {
+  visibility: visible;
+  transition: 0.4s;
+  opacity: 1;
+}
+.cp-body::after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #086ad8;
+  height: 50px;
+  width: 2px;
+  content: "";
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.cp-body:hover::after {
+  visibility: visible;
+  transition: 0.4s;
+  opacity: 1;
+}

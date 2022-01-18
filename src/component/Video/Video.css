@@ -1,0 +1,41 @@
+.video {
+  width: 100%;
+  padding: 60px 0px;
+  background-image: url(../img/video.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* .video::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.205);
+  top: 0;
+  left: 0;
+
+} */
+.video-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 180px 0px;
+}
+.video-details {
+  background: #ffffff;
+  padding: 50px;
+}
+.v-icon {
+  color: blue;
+  height: 100px;
+  width: 100px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 95px;
+  font-size: 26px;
+}
+.btn-v {
+  margin-top: -17px;
+  margin-left: 76px;
+}

@@ -1,0 +1,55 @@
+.about {
+  background: #f8f8f8;
+  padding: 80px;
+  margin-top: 80px;
+  width: 100%;
+}
+.dot {
+  color: blue;
+}
+.about-right h5 {
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.about-right h1 {
+  font-size: 50px;
+  letter-spacing: -2px;
+  line-height: 60px;
+}
+.about-text {
+  padding-left: 32px;
+  line-height: 28px;
+  position: relative;
+}
+.about-text::after {
+  left: 0;
+  content: "";
+  position: absolute;
+  height: 72px;
+  width: 2px;
+  background: #086ad8;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.about-box {
+  margin-top: 30px;
+}
+.box-one,
+.box-tow {
+  padding: 30px;
+  background: #ffffff;
+}
+.box-one h5,
+.box-tow h5 {
+  margin: 20px 0px 10px 0px;
+  font-size: 18px;
+}
+.box-one p,
+.box-tow p {
+  line-height: 26px;
+}
+.height {
+  height: 520px;
+}

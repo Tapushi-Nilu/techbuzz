@@ -1,0 +1,55 @@
+.footer {
+  background-image: url(../img/footer-pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+.footer ul li {
+  padding: 7px 0px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.footer h4 {
+  margin-bottom: 30px;
+}
+.ft-logo img {
+  width: 150px;
+}
+.ft-top {
+  padding: 30px 60px;
+  box-shadow: 0px 8px 16px 0px rgb(212 212 212 / 30%);
+  padding-right: 20px;
+  position: relative;
+  background: #ffffff;
+  margin-bottom: 80px;
+}
+.ft-top::after {
+  position: absolute;
+  height: 20px;
+  width: calc(100% - 40px);
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  background: #086ad8;
+  bottom: -20px;
+}
+.st-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.st-btn button {
+  display: inline-block;
+  padding: 0px 29px;
+  color: blue;
+  font-weight: 700;
+  border: 2px solid rgba(126, 103, 103, 0.274);
+  height: 60px;
+  line-height: 56px;
+  background: #ffffff;
+}

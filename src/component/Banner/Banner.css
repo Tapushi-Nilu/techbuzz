@@ -1,0 +1,24 @@
+.banner {
+  background-image: url(../img/banner-bg-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+}
+.bannertext h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+.bannertext h1 {
+  font-weight: 600;
+  font-size: 72px;
+  letter-spacing: -3px;
+  line-height: 72px;
+  margin-bottom: 12px;
+}
+.bannertext p {
+  color: #001d23;
+  margin-bottom: 0;
+}
